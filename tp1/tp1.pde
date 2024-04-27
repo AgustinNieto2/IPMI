@@ -1,3 +1,7 @@
+/Agustin Nieto 
+/Comision 3 (Autoretrato).
+/TP1
+/Legajo (119101/6)
 PImage img ;
 void setup() {
   size(800, 400);
