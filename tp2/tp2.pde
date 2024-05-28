@@ -102,9 +102,6 @@ void draw() {
     text(texto3, posX, posY, 600, 200);
     textoopaco-=3;
   }
-  if ( mouseX>500 && mouseX<500+150
-    && mouseY >20 && mouseY<20+80) {
-  } else {
     fill(255);
     rect(500, 20, 130, 40);
     fill(0);
