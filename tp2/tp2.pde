@@ -108,7 +108,6 @@ void draw() {
     textSize(30);
     text("VOLVER", 500, 60);
   }
-}
 void mousePressed() {
   if (estado==5) {
     if ( mouseX>500 && mouseX<500+150
