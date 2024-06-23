@@ -11,7 +11,6 @@ color colorCirculos = color(255); // color inicial blanco
 void setup() {
   size(800, 400);
   obra = loadImage("obra.jpg");
-  contador = 1;
 }
 
 void draw() {
