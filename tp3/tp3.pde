@@ -1,16 +1,16 @@
 //Alumno: Nieto Agustin 119101/6
 //comision 3 
-//obra popArt
+//obra OpArt
 //
-PImage obra;
+PImage obra;//carga imagen
 int diam = 20;//variable diametro de los circulos
-int espacio = 60;
+int espacio = 60;//
 float posX, posY;// variables posicion mouse
 color colorCirculos = color(255); //  variable color inicial blanco
 
 void setup() {
-  size(800, 400);
-  obra = loadImage("obra.jpg");
+  size(800, 400);//establece las dimensiones del lienzo
+  obra = loadImage("obra.jpg");//carga la imagen 
 }
 
 void draw() {
@@ -21,7 +21,7 @@ void draw() {
     for (int y = 0; y < width; y += espacio) {
       for (int j = 0; j < height; j += espacio) {
         for (int k = 0; k < height; k += espacio) {
-          fill(150); // color rectangulos verticales y horizontales 
+          fill(150); //  pinta color rectangulos verticales y horizontales 
           noStroke();//elimina bordes negros de los circulos y los rectangulos
           rect(x, y, width, 10); // dibuja rectangulo horizontal
           rect(x, y, 10, height); // dibuja rectangulo vertical 
